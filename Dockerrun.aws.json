@@ -5,12 +5,13 @@
       "name": "client",
       "image": "billtlee/multi-client",
       "hostname": "client",
-      "MemoryReservation": 256,
+      "memory": 128,
       "essential": false
     },
     {
       "name": "nginx",
       "image": "billtlee/multi-nginx",
+      "memory": 128,
       "essential": true,
       "portMappings": [
         {
@@ -24,12 +25,14 @@
       "name": "server",
       "image": "billtlee/multi-server",
       "hostname": "api",
+      "memory": 128,
       "essential": false
     },
     {
       "name": "worker",
       "image": "billtlee/multi-worker",
       "hostname": "worker",
+      "memory": 128,
       "essential": false
     }
   ]
