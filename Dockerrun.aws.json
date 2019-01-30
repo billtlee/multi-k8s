@@ -5,6 +5,7 @@
       "name": "client",
       "image": "billtlee/multi-client",
       "hostname": "client",
+      "MemoryReservation": 256,
       "essential": false
     },
     {
