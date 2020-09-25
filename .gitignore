@@ -1,0 +1,14 @@
+serviceAccount.json
+/client/node_modules
+/server/node_modules
+.DS_Store
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+.vscode
+web/var/log/*
+app/package-lock.json
+doc/database/er.mwb.bak
+app/yarn.lock
+app/package-lock.json
